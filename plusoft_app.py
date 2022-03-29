@@ -74,7 +74,7 @@ st.header( 'Base de Dados')
 
 #load data
 data = get_data ( 'df_plusoft.xlsx' )
-st.dataframe( data )
+st.dataframe( data.head )
 
 #plot map
 st.title ( 'Mapa do Brasil com os grupos dos Municípios')
